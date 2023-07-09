@@ -18,7 +18,7 @@ app.get("/", (req, res) => {
     res.send("Your Server is up and running")
 })
 
-app.use(routes)
+// app.use(routes)
 
 db.on('error', console.error.bind(console, 'connection error:'));
 
